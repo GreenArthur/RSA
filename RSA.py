@@ -43,7 +43,7 @@ def gcd(p,q):
         p, q = q, p%q
     return p
 
-#find the multiplicative inverse of two numbers
+#find the multiplicative inverse of e and phi
 def modInverse(e, phi):
     m0 = phi
     y = 0
