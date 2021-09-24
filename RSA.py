@@ -99,7 +99,7 @@ def GenerateKeys(p,q):
     while g != 1:
         e = random.randrange(1, phi)
         g = gcd(e, phi)
-    #find the inverse between the e and phi
+    #find the inverse of e and phi
     d = modInverse(e,phi)
 
     return ((e, mod), (d, mod))
